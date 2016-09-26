@@ -4,6 +4,20 @@
 var first = 3;
 var second = 5;
 
+if (first==second) {
+  console.log("Hello");
+} else {
+  console.log("Goodbye")
+};
+
+var third;
+
+if (first>second) {
+  third = first + second;
+} else {
+  third = second - first;
+};
+
 // 2 - Expand your answer above to console log "Goodbye" if the variables are not equal
 
 
